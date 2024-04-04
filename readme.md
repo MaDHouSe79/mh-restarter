@@ -26,9 +26,18 @@
   <img alig src="https://github-profile-trophy.vercel.app/?username=MaDHouSe79&margin-w=15&column=6" />
 </p>
 
+# Youtve and Discord
+[Youtube](https://www.youtube.com/@MaDHouSe79)
+[Discord](https://discord.gg/vJ9EukCmJQ)
+
 # MH-Restarter (Standalone)
 - a scheduled restart by TxAdmin but this shows a NUI countdown message.
 - you can also enable, sound/weather/time/zombies see `config.lua`
 
 # TxAdmin notification
 - you need to turn of the scheduled restart notification in TxAdmin.
+
+
+# LICENSE
+[GPL LICENSE](./LICENSE)<br />
+&copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)
