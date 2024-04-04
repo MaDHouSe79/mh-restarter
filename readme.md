@@ -27,8 +27,8 @@
 </p>
 
 # Youtve and Discord
-[Youtube](https://www.youtube.com/@MaDHouSe79)
-[Discord](https://discord.gg/vJ9EukCmJQ)
+- [Youtube](https://www.youtube.com/@MaDHouSe79)
+- [Discord](https://discord.gg/vJ9EukCmJQ)
 
 # MH-Restarter (Standalone)
 - a scheduled restart by TxAdmin but this shows a NUI countdown message.
