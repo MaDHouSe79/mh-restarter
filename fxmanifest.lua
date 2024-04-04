@@ -19,7 +19,6 @@ files {
 
 shared_scripts {
     'config.lua',
-    'shared/locale.lua',
     'locales/*.lua',
 }
 
