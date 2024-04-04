@@ -1,0 +1,30 @@
+html, body, #countdown {
+    width: 100%;
+    height: auto;
+    font-family: "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+body {
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+}
+
+.countdown {
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
