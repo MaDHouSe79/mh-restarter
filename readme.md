@@ -37,7 +37,7 @@
 # TxAdmin notification
 - you need to turn of the scheduled restart notification in TxAdmin.
 
-
+# Screenshot
 ![alttext](https://github.com/MaDHouSe79/mh-restarter/blob/main/screenshops/Schermafbeelding%202024-04-05%20094144.png?raw=true)
 
 # LICENSE
