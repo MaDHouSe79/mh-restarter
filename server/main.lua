@@ -31,6 +31,8 @@ AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
             run = true
         elseif eventData.secondsRemaining == 600 then
             run = true
+        elseif eventData.secondsRemaining == 300 then
+            run = true
         elseif eventData.secondsRemaining == 60 then
             run = true
         end
