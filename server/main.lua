@@ -26,12 +26,23 @@ end
 AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
     print('Scheduled Restart in ' .. eventData.secondsRemaining .. ' secs')
     if eventData.secondsRemaining >= 1 then
-        restartByTxAdmin = true
-        HowIsRestarting()
-        timer = eventData.secondsRemaining
-        TriggerClientEvent('mh-restarter:client:send', -1, timer, restartBy)
+        local run = false
+        if eventData.secondsRemaining == 900 then
+            run = true
+        elseif eventData.secondsRemaining == 600 then
+            run = true
+        elseif eventData.secondsRemaining == 60 then
+            run = true
+        end
+        if run then
+            restartByTxAdmin = true
+            HowIsRestarting()
+            timer = eventData.secondsRemaining
+            TriggerClientEvent('mh-restarter:client:send', -1, timer, restartBy)
+        end
     end
 end)
+
 
 Citizen.CreateThread(function()
     while true do
