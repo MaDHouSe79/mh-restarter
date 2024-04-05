@@ -38,7 +38,7 @@
 - you need to turn of the scheduled restart notification in TxAdmin.
 
 
-![alttext](https://github.com/MaDHouSe79/mh-restarter/blob/main/image/cash.png?raw=true)
+![alttext](https://github.com/MaDHouSe79/mh-restarter/blob/main/screenshops/Schermafbeelding%202024-04-05%20094144.png?raw=true)
 
 # LICENSE
 [GPL LICENSE](./LICENSE)<br />
