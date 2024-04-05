@@ -5,7 +5,6 @@ Locales = {}
 Config = {}
 Config.Locale = "en"
 
-Config.ServerName = "--[[ RP Server name here ]]--"
 Config.RestartCommand = "restart-server"
 
 Config.Settings = {
