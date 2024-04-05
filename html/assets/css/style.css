@@ -1,24 +1,37 @@
 html, body, #countdown {
     width: 100%;
     height: auto;
-    font-family: "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-    color: #444;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {
     margin: 0;
-    padding: 18px;
     overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.countdown {
-    width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
+.container {
+    display: none;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    margin-top: -10px;
+    margin-left: -40px;
+    width: 400px;
+    height: 15px;
     text-align: center;
-    display: block;
-    font-size: larger;
-    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: .5;
+    filter: alpha(opacity=25);
+    padding: 30px;
+}​
+
+.countdown {
+    margin-top: -15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 100%;
 }
 
 .white {
