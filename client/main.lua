@@ -90,10 +90,10 @@ AddEventHandler('onResourceStart', function(resource)
     Reset()
 end)
 
-RegisterNetEvent('mh-restarter:client:send', function(count)
+RegisterNetEvent('mh-restarter:client:send', function(count, restartBy)
     if not restartEnable then
         restartEnable = true
-        SendNUIMessage({open = true, secs = count + 1, message = String('restartMessage')})
+        SendNUIMessage({open = true, secs = count + 1, message = String('restartMessage'), restartBy = restartBy})
         if Config.Settings.Sound.Enable then SendNUIMessage({type = 'play', file = Config.Settings.Sound.File, volume = Config.Settings.Sound.Volume}) end
     else
         if Config.Settings.Sound.Enable then SendNUIMessage({type = 'play', file = Config.Settings.Sound.File, volume = Config.Settings.Sound.Volume}) end
