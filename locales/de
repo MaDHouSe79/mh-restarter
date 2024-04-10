@@ -1,0 +1,9 @@
+--[[ ===================================================== ]] --
+--[[             MH Restarter Script von MaDHouSe          ]] --
+--[[ ===================================================== ]] --
+Locales['de'] = {
+    ['dropMessage'] = "Der Server startet neu...",
+    ['restartMessage'] = "Sturm in",
+    ['restartByTxAdmin'] = "Neustart über TxAdmin",
+    ['restartByAdmin'] = "Neustart durch Admin",
+}
