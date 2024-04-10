@@ -35,7 +35,8 @@
 - you can also enable, sound/weather/time/zombies see `config.lua`
 
 # TxAdmin notification
-- you need to turn of the scheduled restart notification in TxAdmin.
+- you need to turn off the scheduled restart notification in TxAdmin.
+- Can be done by adding the following in server.cfg: `set txAdmin-hideDefaultScheduledRestartWarning true`
 
 # Screenshot
 ![alttext](https://github.com/MaDHouSe79/mh-restarter/blob/main/screenshots/Schermafbeelding%202024-04-05%20094144.png?raw=true)
