@@ -38,10 +38,6 @@
 - you need to turn off the scheduled restart notification in TxAdmin.
 - Can be done by adding the following in server.cfg: `set txAdmin-hideDefaultScheduledRestartWarning true`
 
-# server.cfg
-```conf
-add_ace resource.mh-restarter command.restart allow
-```
 
 # Screenshot
 ![alttext](https://github.com/MaDHouSe79/mh-restarter/blob/main/screenshots/Schermafbeelding%202024-04-05%20094144.png?raw=true)
