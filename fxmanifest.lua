@@ -6,7 +6,7 @@ game 'gta5'
 
 author 'MaDHouSe'
 description 'MH Restarter.'
-version '1.0'
+version '1.0.0'
 
 ui_page 'html/index.html'
 
