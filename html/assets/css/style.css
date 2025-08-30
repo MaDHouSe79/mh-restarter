@@ -1,0 +1,43 @@
+html, body, #countdown {
+    width: 100%;
+    height: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container {
+    display: none;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    margin-top: -10px;
+    margin-left: -40px;
+    width: 400px;
+    height: 15px;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: .5;
+    filter: alpha(opacity=25);
+    padding: 30px;
+}​
+
+.countdown {
+    margin-top: -15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 100%;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
